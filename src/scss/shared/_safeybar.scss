@@ -1,0 +1,22 @@
+.safety-bar {
+    background: #fff;
+    bottom: 0;
+    left: 50%;
+    max-width: 1150px;
+    position: fixed;
+    transform: translate(-50%);
+    width: 80%;
+
+    &.safety-bar--hidden {
+        display: none;
+    }
+}
+
+.safety-bar__content {
+    position: relative;
+}
+
+.safety__btn-isi {
+    position: absolute;
+    right: 20px;
+}

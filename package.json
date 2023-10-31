@@ -1,0 +1,15 @@
+{
+    "name": "vanila-js-sample-website",
+    "version": "1.0.0",
+    "description": "This is a sample website made with vanilla JS",
+    "main": "index.js",
+    "scripts": {
+        "scss": "node-sass --watch src/scss -o dist/css --output-style compact"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "node-sass": "^9.0.0"
+    }
+}
