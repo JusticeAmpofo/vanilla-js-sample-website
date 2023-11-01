@@ -1,5 +1,10 @@
-.modal {
+.modal,
+.modal__content-copy {
     display: none;
+}
+
+.modal--show {
+    display: block;
 }
 
 .modal__dimmer {

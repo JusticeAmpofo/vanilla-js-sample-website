@@ -25,7 +25,9 @@
                 Quisque consequat lacus a ipsum porta, eget fermentum purus
                 elementum.
             </p>
-            <!-- Modal -->
+            <button data-modal="first-modal-content" class="modal__btn btn mb5">
+                Open Modal
+            </button>
             <p class="mb5">
                 Pellentesque habitant morbi tristique senectus et netus et
                 malesuada fames ac turpis egestas. Phasellus ornare tortor
@@ -144,10 +146,49 @@
                 Fusce laoreet mauris lorem. In hac habitasse platea dictumst.
                 Nulla facilisi.
             </p>
+
+            <button
+                data-modal="second-modal-content"
+                class="modal__btn btn mb5"
+            >
+                Second Modal
+            </button>
+
+            <div class="modal"></div>
+
+            <!-- Modal Content -->
+            <div id="first-modal-content" class="modal__content-copy">
+                <h2 class="h2 mb5">
+                    My Modal <br class="mobile-only-block" />
+                    content here
+                </h2>
+                <p class="mb5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                    voluptatem eos doloribus cum doloremque omnis deserunt
+                    recusandae architecto dicta reprehenderit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi, saepe.
+                </p>
+            </div>
+
+            <div id="second-modal-content" class="modal__content-copy">
+                <h2 class="h2 mb5">
+                    My Modal <br class="mobile-only-block" />
+                    content here
+                </h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequuntur illo autem eaque at commodi obcaecati labore,
+                    culpa mollitia voluptatum accusamus.
+                </p>
+            </div>
         </main>
         <footer class="footer website-border"></footer>
 
         <script src="js/components/header.js"></script>
+        <script src="js/components/modal.js"></script>
         <script src="js/components/footer.js"></script>
     </body>
 </html>

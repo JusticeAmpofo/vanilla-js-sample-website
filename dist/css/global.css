@@ -98,7 +98,9 @@ body { font-family: 'Open Sans', sans-serif; font-size: 1.6rem; line-height: 1.2
 
 .footer { background: #5b5b5b; color: #fff; }
 
-.modal { display: none; }
+.modal, .modal__content-copy { display: none; }
+
+.modal--show { display: block; }
 
 .modal__dimmer { background: rgba(0, 0, 0, 0.8); height: 100vh; position: fixed; top: 0; left: 0; width: 100vw; }
 
