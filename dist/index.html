@@ -53,7 +53,88 @@
                 porta turpis sit amet finibus. Cras rhoncus pharetra magna nec
                 mollis.
             </p>
-            <!-- Tabs -->
+            <div class="tabs">
+                <div role="tablist" class="tabs__panels">
+                    <button
+                        tabindex="0"
+                        role="tab"
+                        aria-selected="true"
+                        class="btn mr1 tabs__item tabs__item--active"
+                    >
+                        Tab 1
+                    </button>
+                    <button tabindex="-1" role="tab" class="btn mr1 tabs__item">
+                        Tab 2
+                    </button>
+                    <button tabindex="-1" role="tab" class="btn mr1 tabs__item">
+                        Tab 3
+                    </button>
+                </div>
+                <div class="tabs__content website-border mb5">
+                    <div tabindex="0" role="panel" aria-selected="true">
+                        <h2 class="h1 mb5">Tab 1 content</h2>
+                        <p class="mb5">
+                            This is content for when tab 1 is active.
+                        </p>
+                        <p class="mb5">
+                            This is content for when tab 1 is active.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ullam soluta eius aliquid nulla. Minima sequi
+                            et assumenda cupiditate, nobis, harum temporibus
+                            natus consectetur soluta deleniti reiciendis
+                            molestiae quaerat quis dolore.
+                        </p>
+                    </div>
+                    <div tabindex="-1" role="panel" hidden>
+                        <h2 class="h1 mb5">Tab 2 content</h2>
+                        <p class="mb5">
+                            This is content for when tab 2 is active.
+                        </p>
+                        <p class="mb5">
+                            This is content for when tab 2 is active.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Repellendus sapiente tenetur laudantium
+                            fugiat? Adipisci quis atque velit ullam assumenda
+                            pariatur officiis quos sit, temporibus ipsum labore
+                            eum blanditiis nam amet nostrum culpa enim harum
+                            eius dicta itaque expedita! Iste id vero rerum
+                            delectus iure quas illo, quasi doloremque distinctio
+                            molestias.
+                        </p>
+                    </div>
+                    <div tabindex="-1" role="panel" hidden>
+                        <h2 class="h1 mb5">Tab 3 content</h2>
+                        <p class="mb5">
+                            This is content for when tab 3 is active.
+                        </p>
+                        <p class="mb5">
+                            This is content for when tab 3 is active.
+                        </p>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Neque tempora alias corrupti non aliquam
+                            officia, maiores laudantium aspernatur enim,
+                            repellendus voluptates. Rem fugit recusandae aut
+                            dolorem ipsam enim aspernatur! Iste voluptatum rerum
+                            ea repellendus minima? Consequuntur adipisci esse
+                            doloribus, et alias inventore molestiae aliquid
+                            quidem accusamus nemo illum odio distinctio
+                            voluptatum, rerum, sed corporis obcaecati. Vero
+                            velit hic consequatur dolor mollitia! Beatae nulla
+                            atque ab. Ducimus incidunt neque eveniet iste
+                            necessitatibus! Delectus ipsum iusto quae tenetur
+                            ratione libero dolores consequatur voluptates quas
+                            ex, aperiam eos quaerat nostrum! At a non similique,
+                            esse labore, error praesentium deleniti veritatis
+                            vero possimus molestiae.
+                        </p>
+                    </div>
+                </div>
+            </div>
             <p class="mb5">
                 Mauris sed mauris sapien. Donec diam ex, ultrices vel blandit
                 vel, porta nec nisi. Nulla ornare nibh orci, non lobortis arcu
@@ -154,6 +235,42 @@
                 Second Modal
             </button>
 
+            <div class="tabs">
+                <div role="tablist" class="tabs__panels">
+                    <button
+                        tabindex="0"
+                        role="tab"
+                        aria-selected="true"
+                        class="btn mr1 tabs__item tabs__item--active"
+                    >
+                        One
+                    </button>
+                    <button tabindex="-1" role="tab" class="btn mr1 tabs__item">
+                        Two
+                    </button>
+                    <button tabindex="-1" role="tab" class="btn mr1 tabs__item">
+                        Three
+                    </button>
+                    <button tabindex="-1" role="tab" class="btn mr1 tabs__item">
+                        Four
+                    </button>
+                </div>
+                <div class="tabs__content website-border mb5">
+                    <div tabindex="0" role="panel" aria-selected="true">
+                        <p class="mb5">One</p>
+                    </div>
+                    <div tabindex="-1" role="panel" hidden>
+                        <p class="mb5">Two</p>
+                    </div>
+                    <div tabindex="-1" role="panel" hidden>
+                        <p class="mb5">Three</p>
+                    </div>
+                    <div tabindex="-1" role="panel" hidden>
+                        <p class="mb5">Four</p>
+                    </div>
+                </div>
+            </div>
+
             <div class="modal"></div>
 
             <!-- Modal Content -->
@@ -211,6 +328,7 @@
 
         <script src="js/components/header.js"></script>
         <script src="js/components/modal.js"></script>
+        <script src="js/components/tabs.js"></script>
         <script src="js/components//safety-bar.js"></script>
         <script src="js/components/isi.js"></script>
         <script src="js/components/footer.js"></script>
