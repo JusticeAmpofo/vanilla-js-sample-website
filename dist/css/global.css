@@ -114,7 +114,7 @@ body { font-family: 'Open Sans', sans-serif; font-size: 1.6rem; line-height: 1.2
 
 .safety-bar__content { position: relative; }
 
-.safety__btn-isi { position: absolute; right: 20px; }
+.safety__btn-isi { position: absolute; right: 20px; top: 0; }
 
 .tabs__panels { margin-bottom: -12px; margin-left: 8px; }
 
