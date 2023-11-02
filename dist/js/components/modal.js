@@ -1,5 +1,3 @@
-console.log('modal');
-
 const modalComp = {
     modal: document.querySelector('.modal'),
     construct: function () {
